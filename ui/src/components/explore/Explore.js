@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { Button } from 'react-bootstrap';
 import './../../Common.scss';
 
-export default class Resume extends Component {
+class Explore extends Component {
   render() {
     return (
       <div className="App-page">
-        <Button>Download Resume</Button>
+        <Button> Explore</Button>
       </div>
     )
   }
 }
+
+export default  Explore;

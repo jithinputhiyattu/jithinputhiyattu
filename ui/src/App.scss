@@ -10,16 +10,16 @@
 
 .Nav-item {
   padding:8px;
+  font-size: 16px;
+  color:blue;
   &:hover {
-    color: green;
+    color: blueviolet;
     text-decoration: none;
   }
-
-  color: red;
 }
 
 .App-header {
-  background-color: white;
+  background-color: wheat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,11 @@
+.slide-body {
+    background-color:green;
+    width: 1000px;
+    border-radius: 10px;
+    height: 400px;
+    color: #ff0000;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    .slide-body { display: none; }   /* hide it elsewhere */
+  }

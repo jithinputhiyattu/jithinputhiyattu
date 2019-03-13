@@ -1,0 +1,18 @@
+
+.article-box {
+  margin: 10px;
+  padding: 10px
+}
+
+
+.article-row {
+  margin: 10px;
+  padding: 10px
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    /* For mobile phones: */
+    .article-box {
+      width: 100%;
+    }
+  }

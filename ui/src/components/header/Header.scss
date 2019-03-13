@@ -1,0 +1,11 @@
+.header-body {
+    background-color: #eeeeee;
+}
+
+.header-nav-list {
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    .header-nav-list{ display: none; }   /* hide it elsewhere */
+  }
